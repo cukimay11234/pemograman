@@ -1,0 +1,214 @@
+
+Sebelum beralih ke pengantar html kita harus tahu tentang apa itu bahasa markup dan jenis bahasa lain yang tersedia di industri TI.
+
+Kami menggunakan berbagai bahasa di berbagai negara untuk memberikan instruksi kepada beberapa orang agar komunikasi menjadi lebih baik. Demikian pula, ketika sebuah mesin diminta untuk melakukan beberapa tugas, beberapa bahasa digunakan untuk hal yang sama.
+
+Berbagai jenis bahasa tersedia untuk menginstruksikan mesin untuk tujuan tertentu, misalnya:
+
+Bahasa scripting
+Bahasa markup
+Bahasa pemrograman ... dll.
+Semua jenis bahasa ini menyediakan cara untuk berkomunikasi dengan komputer.
+
+Bahasa markup digunakan untuk memproses, mendefinisikan dan menyajikan teks dalam dokumen teks. Idenya berasal dari menandai naskah menu. Bahasa-bahasa ini terutama bahasa berbasis tag. HTML adalah bahasa markup yang paling banyak digunakan di seluruh dunia.
+
+
+Kategori Bahasa Markup:
+Presentational:   digunakan oleh sistem pengolah kata tradisional untuk memberikan apa yang Anda lihat adalah apa yang Anda dapatkan (WYSIWYG) efek.
+Prosedural: adalah bahasa yang disematkan dengan teks untuk memberikan instruksi pemrosesan pada teks.
+Deskriptif: adalah bahasa yang digunakan untuk memberikan informasi atau label bahwa bagaimana teks harus diperlakukan melalui browser.
+Pengantar HTML:
+Singkatan dari bahasa markup hypertext dan merupakan bahasa markup deskriptif yang paling banyak digunakan untuk menentukan tata letak konten web.
+
+Ini diperkenalkan oleh Tim Berners Lee I pada tahun 1991 dan secara resmi dirilis pada tahun 1995 sebagai HTML 2.0, saat ini HTML 5.2 sedang digunakan dan dirilis pada tahun 2017.
+
+Versi html	Tahun
+HTML	1991
+HTML 2.0	1995
+HTML 3.2	1997
+HTML 4.01	1999
+XHTML	2000
+HTML 5	2014
+HTML 5.1	2016
+HTML 5.2	2017
+Untuk presentasi dan format teks html menggunakan tag dan atribut.
+
+Tag: markup adalah semua tentang tag dan tag ini sudah ditentukan sebelumnya dalam html dan dapat digunakan sesuai dengan itu. Tag adalah elemen html yang terlampir dalam kurung sudut (<nama elemen>).
+                Tag terdiri dari dua jenis:
+
+Dipasangkan
+Tidak berpasangan
+Dipasangkan: tag ini memiliki dua tag satu untuk membuka dan yang lainnya untuk menutup konten. Tag pembuka disebut sebagai tag awal dan tag penutup disebut tag akhir hanya untuk menunjukkan titik awal dan titik akhir konten.
+                 <element-name> —-content —— </ elemen name>
+
+Di sini, baik tag pembuka dan penutup hampir serupa kecuali tag akhir memiliki garis miring di awal.
+
+Tidak berpasangan: tag ini tidak memiliki tag penutup tetapi dapat ditulis dalam bentuk apa pun, misalnya dalam bentuk tag pembuka atau bentuk tag penutup.
+Dan juga dengan garis miring di akhir nama elemen.
+
+Contoh:
+
+<element-name> atau </ elemen name> atau <elemen name />
+
+Dalam contoh terakhir, slash diberikan setelah nama elemen berarti itu menutup di mana dibuka itu sebabnya tag tidak berpasangan juga disebut tag penutup diri.
+
+struktur dasar kode html
+
+<! doctype html>
+
+<html>
+
+    <head>
+
+         <title> ——- </title>
+
+    </head>
+
+    <body>
+
+`—— siapa pun ———
+
+    </body>
+
+</html>
+
+Atribut: digunakan untuk menambahkan beberapa properti tambahan ke tag html yang ada. Atribut selalu disediakan di tag pembuka.
+Contoh: <body style = ”background-color: red”> ————— </body>
+
+                       atribut penting dalam html adalah:
+
+style: untuk menambahkan css ke elemen html
+src: untuk menyediakan sumber file apa pun
+href: untuk memberikan referensi dari setiap halaman atau file.
+alt: untuk memberikan deskripsi suatu objek.
+BAGIAN KEPALA HTML
+bagian ini digunakan untuk menambahkan file eksternal ke halaman html Anda.
+
+perbedaan utama pertama dengan tag kepala dan tag tubuh adalah bahwa 90% dari data halaman yang terlihat tertutup dalam tag tubuh.
+
+ada banyak elemen yang digunakan dalam tag kepala, tag yang paling sering digunakan adalah:
+
+<title>:   berikan judul untuk halaman web
+
+<link>: untuk menautkan halaman eksternal atau sumber daya di halaman saat ini (atribut: href = "jalur sumber daya" rel = "hubungan dengan doc html" type = "jenis sumber")
+
+dapat menggunakan tanda kutip ganda, tanda kutip tunggal atau bahkan tidak perlu menggunakan tanda kutip. tetapi untuk penerapan waktu nyata, kuotasi ganda untuk nilai atribut direkomendasikan.
+
+<meta>:   untuk menambahkan informasi tambahan tentang dokumen html.
+
+<script>: digunakan untuk menambahkan skrip ke halaman, java-script, jquery dll.
+
+<style>: gunakan untuk menambahkan css internal ke halaman.
+
+html memiliki berbagai tag untuk mendesain tata letak secara efisien dan efektif.
+
+1. memformat tag
+
+2.blocklevel tag
+
+3. daftar tag
+
+4. masukkan tag
+
+5. Tag media
+
+memformat tag:
+<h1> ke <h6>: untuk heading
+
+<p>: tag paragraf
+
+<b>: teks tebal
+
+<I>: teks miring
+
+<u>: teks yang digarisbawahi
+
+<strike>: dicoret teks
+
+<del>: teks yang dihapus (sama seperti mogok)
+
+<em>: teks yang ditekankan (sama dengan yang dicetak miring)
+
+<ins>: teks yang disisipkan (sama dengan yang digarisbawahi)
+
+<sup>: superscript (untuk persamaan matematika)
+
+<sub>: subskrip (untuk rumus kimia)
+
+<span>: untuk teks yang lebih kecil (digunakan untuk slogan dll.)
+
+<mark>: untuk teks yang ditandai (teks yang disorot).
+
+Situs: hancurkan garis
+
+<hr>: garis horizontal (untuk memecah halaman).
+
+tag blocklevel:
+<div>: untuk membagi halaman menjadi blok (untuk membuat tata letak).
+
+<table>: untuk membuat tabel menggunakan semua tag (th, tr, td, table)
+
+<th>: kependekan dari heading tabel.
+
+<td>: kependekan dari data tabel.
+
+<tr>: singkatan dari baris tabel.
+
+<iframe>: digunakan untuk menambahkan halaman web lain ke yang sudah ada.
+
+Daftar tag: untuk membuat daftar.
+<ol>: daftar yang dipesan
+
+<ul>: daftar tidak berurutan
+
+<li>: daftar item
+
+<dl>: daftar diskripsi
+
+<dt>: istilah data
+
+<dd>: definisi data
+
+tag input
+tag input: untuk menyediakan kotak input untuk beberapa nilai dan juga untuk membuat tombol.
+          <input>: memiliki berbagai atribut seperti.
+
+type: untuk menentukan tipe nilai yang akan dimasukkan.
+memiliki berbagai nilai untuk diatur: teks, angka, kata sandi, email, radio, kotak centang,
+
+kirim, tombol, url, pencarian, tanggal, file, reset, warna dll.
+
+min: untuk memberikan nilai minimum.
+maks: untuk memberikan nilai maksimum.
+value: untuk memberikan nilai default.
+placeholder: untuk menampilkan pesan input.
+Nama: digunakan untuk memberikan nama ke kolom input.
+       <textarea>: untuk menambahkan area komentar (attr: cols, rows).
+
+       <select>: untuk membuat dropdown.
+
+       <options>: subtag pilih dan menyediakan opsi dalam dropdown.
+
+Tag media
+Tag media: untuk menambahkan elemen media seperti video, gambar, dll.
+<audio>: subtag: sumber, atribut: href, tambahkan kontrol untuk menampilkan jeda permainan.
+
+<video>: subtag: sumber, atribut: href, kontrol untuk menampilkan menu kontrol
+
+<img>: atribut: src, alt, tinggi, lebar.
+
+ada banyak tag berguna lainnya dalam html untuk dijelajahi:
+
+<a>: disebut sebagai tag jangkar untuk membuat tautan untuk melompat ke halaman lain.
+
+      attrubute adalah: href, target (nilainya _blank, _parent dll.)
+
+Anda dapat mempelajari semua Kursus Pemrograman
+
+BEBERAPA CONTOH:
+
+
+
+Daftar dan div html:
+
+
